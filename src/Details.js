@@ -2,7 +2,7 @@
 // Logo images
 // import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
-import logogradient from "./assets/Satya.svg"
+import logogradient from "./assets/Satya.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -131,8 +131,7 @@ export const projectDetails = [
   {
     title: "Weather App",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript, React.js",
     previewLink: "https://weather-n8n8.vercel.app/",
     githubLink: "https://github.com/SatyajeetBehera1/weather",
@@ -140,8 +139,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Youtube Clone",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript, React.js, Material UI",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -149,8 +147,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Portfolio Website",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript, React, Tailwind, GSAP Animation",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -158,8 +155,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Project title 4",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -167,8 +163,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Project title 5",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -176,8 +171,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Project title 6",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample Fproject lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
