@@ -27,11 +27,12 @@ import particle_config from "./Components/particle-config";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-// import { loadSlim } from "tsparticles-slim";
+import { loadSlim } from "tsparticles-slim";
 function App() {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    await loadFull(engine);
+    // await loadFull(engine);
+    await loadSlim(engine);
   }, []);
 
   return (

@@ -62,7 +62,7 @@ const particles_config = {
       trail: {
         delay: 0.005,
         pauseOnStop: true,
-        quantity: 5,
+        quantity: 1,
         particles: {
           color: {
             value: "#ff0000",
