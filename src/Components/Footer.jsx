@@ -7,14 +7,14 @@ function Footer() {
         Coded by{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="/"
           target="_blank"
           rel="noreferrer noopener"
         >
           Satyajeet Behera
         </a>{" "}
         with
-        <span className="text-gradient font-medium bg-gradient-to-br from-blue-500 to-purple-600"> Love </span> &
+        <span className="bg-clip-text bg-gradient text-transparent "> Love </span> &
         <span className="text-gradient font-medium bg-gradient-to-br from-blue-500 to-purple-600"> Coffee </span>
       </p>
     </footer>
