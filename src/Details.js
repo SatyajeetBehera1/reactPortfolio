@@ -132,7 +132,7 @@ export const projectDetails = [
     title: "Weather App",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript, React.js, Tailwind",
+    techstack: "HTML/CSS, JavaScript, React.js",
     previewLink: "https://weather-n8n8.vercel.app/",
     githubLink: "https://github.com/SatyajeetBehera1/weather",
   },
