@@ -31,8 +31,8 @@ import { loadSlim } from "tsparticles-slim";
 function App() {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    // await loadFull(engine);
-    await loadSlim(engine);
+    await loadFull(engine);
+    // await loadSlim(engine);
   }, []);
 
   return (
