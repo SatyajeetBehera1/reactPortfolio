@@ -7,8 +7,9 @@ import { GrInstagram } from "react-icons/gr";
 function Contact() {
   const { email, phone } = contactDetails;
   return (
+    <main className="antialiased">
     <div className="flex w-full min-h-screen justify-center item-center ">
-      <div className="flex flex-col space-y-6 bg-white w-full max-w-4xl p-8 rounded-xl shadow-lg text-black mb-6">
+      <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-white w-full max-w-4xl p-8 rounded-xl shadow-lg text-black">
         <div className="flex flex-col space-y-8 justify-between">
           <div>
             <h1 className="font-bold text-4xl tracking-wide">Contact us</h1>
@@ -25,12 +26,12 @@ function Contact() {
                 className="text-xl"
                 style={{ display: "inline" }}
               />
-              <span>+91 6372889063</span>
+              <span>{phone}</span>
             </div>
             <div>
               <div className="inline space-x-2 item-center">
                 <IoMdMail className="text-xl" style={{ display: "inline" }} />
-                <span>jagajajpur3@gmail.com</span>
+                <span>{email}</span>
               </div>
             </div>
             <div>
@@ -56,15 +57,52 @@ function Contact() {
           </div>
           <div className="bg rounded-xl shadow-lg p-8 text-gray-600">
             <form action="" flex-col className="flex flex-col space-y-4">
-              <div><label htmlFor="" className="text-sm ">Your Name</label></div>
-              <div><input type="text" name="" id="" placeholder="Your Name" className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 outline-none focus:ring-2 focus:ring-green"/></div>
-              <div><label htmlFor=""></label></div>
+              <div>
+                <label htmlFor="" className="text-sm ">
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your Name"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div>
+                <label htmlFor="" className="text-sm ">
+                  Email Address
+                </label>
               
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Email Address"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              <div>
+                <label htmlFor="" className="text-sm ">
+                  Message
+                </label>
+              
+                <textarea
+                  rows={4}
+                  name=""
+                  id=""
+                  placeholder="Type your meaage here"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+              {/* <div></div> */}
+              <button className="inline-block self-end bg-black text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send Message</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+    </main>
   );
 }
 
