@@ -36,7 +36,7 @@ function Technologies() {
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold flex justify-center ">
-        LIBRARIES & FRAMEWRKS
+        LIBRARIES & FRAMEWORKS
         </h1>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6"style={{display:"flex", justifyContent:"space-evenly"}}>

@@ -47,7 +47,7 @@ function Header() {
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies
+              Tech Stack
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
