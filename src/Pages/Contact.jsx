@@ -9,7 +9,7 @@ function Contact() {
   return (
     <main className="antialiased">
       <div className="flex w-full min-h-screen justify-center item-center ">
-        <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-white w-full max-w-4xl p-8 rounded-xl shadow-lg text-black sm:p-12">
+        <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-transparent w-full max-w-4xl p-8 rounded-xl shadow-lg text-black sm:p-12 mb-10">
           <div className="flex flex-col space-y-8 justify-between">
             <div>
               <h1 className="font-bold text-4xl tracking-wide">Contact us</h1>
