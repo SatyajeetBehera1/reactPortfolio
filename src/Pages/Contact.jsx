@@ -56,7 +56,7 @@ function Contact() {
             </div>
           </div>
           <div className="bg rounded-xl shadow-lg p-8 text-gray-600">
-            <form action="" flex-col className="flex flex-col space-y-4">
+            <form action="" flex-col className="flex flex-col space-y-4 md:w-80">
               <div>
                 <label htmlFor="" className="text-sm ">
                   Your Name
