@@ -54,8 +54,11 @@ function Contact() {
               </a>
             </div>
           </div>
-          <div className="bg-black rounded-xl shadow-lg p-8">
-            <form action="">
+          <div className="bg rounded-xl shadow-lg p-8 text-gray-600">
+            <form action="" flex-col className="flex flex-col space-y-4">
+              <div><label htmlFor="" className="text-sm ">Your Name</label></div>
+              <div><input type="text" name="" id="" placeholder="Your Name" className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 outline-none focus:ring-2 focus:ring-green"/></div>
+              <div><label htmlFor=""></label></div>
               
             </form>
           </div>
