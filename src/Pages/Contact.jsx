@@ -69,7 +69,7 @@ function Contact() {
               className="flex flex-col space-y-4 md:w-80"
             >
               <div>
-                <label htmlFor="" className="text-sm ">
+                <label htmlFor="" className="text-sm text-black">
                   Your Name
                 </label>
                 <input
@@ -81,7 +81,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="" className="text-sm ">
+                <label htmlFor="" className="text-sm text-black">
                   Email Address
                 </label>
 
@@ -94,7 +94,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="" className="text-sm ">
+                <label htmlFor="" className="text-sm text-black">
                   Message
                 </label>
 
@@ -102,7 +102,7 @@ function Contact() {
                   rows={4}
                   name=""
                   id=""
-                  placeholder="Type your meaage here"
+                  placeholder="Type your message here"
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
                 />
               </div>
