@@ -48,9 +48,9 @@ function Home() {
         butt.current,
         {
           x: "-100%",
-          delay: 0.1,
+          delay: 0.2,
           opacity: 0,
-          duration: 2.5,
+          duration: 3,
           ease: "Power3.easeOut",
         },
         "<"
