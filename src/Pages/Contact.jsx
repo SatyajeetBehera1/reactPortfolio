@@ -11,11 +11,11 @@ function Contact() {
     <main className="antialiased">
       <div className="flex w-full min-h-[50%] justify-center item-center">
         <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 w-full max-w-4xl p-8 rounded-xl shadow-lg text-black sm:p-12 mb-10 blu">
-          <div className="flex flex-col space-y-8 justify-between">
+          <div className="flex flex-col space-y-8 justify-between  text-white">
             {/* <div> */}
               <div>
                 <h1 className="font-bold text-4xl tracking-wide">Contact us</h1>
-                <p className="pt-2 text-black text-sm">
+                <p className="pt-2 text-sm text-white">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
                   repellendus velit ipsum unde rerum adipisci necessitatibus.
                   Nemo cum consequuntur distinctio. Officiis enim quia vero
@@ -62,14 +62,14 @@ function Contact() {
               </div>
             {/* </div> */}
           </div>
-          <div className="bg rounded-xl shadow-lg p-8 text-gray-600">
+          <div className="bg rounded-xl shadow-lg p-8">
             <form
               action=""
               flex-col
               className="flex flex-col space-y-4 md:w-80"
             >
               <div>
-                <label htmlFor="" className="text-sm text-black">
+                <label htmlFor="" className="text-sm text-white">
                   Your Name
                 </label>
                 <input
@@ -81,7 +81,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="" className="text-sm text-black">
+                <label htmlFor="" className="text-sm text-white">
                   Email Address
                 </label>
 
@@ -94,7 +94,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="" className="text-sm text-black">
+                <label htmlFor="" className="text-sm text-white">
                   Message
                 </label>
 
