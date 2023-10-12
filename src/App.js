@@ -34,7 +34,7 @@ function App() {
     await loadFull(engine);
     // await loadSlim(engine);
   }, []);
-
+  
   return (
     <div className="App">
       <Router>
