@@ -1,7 +1,5 @@
 import React from "react";
 import { techStackDetails } from "../Details";
-import { FaJava, FaHtml5 } from "react-icons/fa6";
-import { SiJavascript } from "react-icons/si";
 
 function Technologies() {
   const {
@@ -73,7 +71,6 @@ function Technologies() {
         <img src={vscode} title="Visual Studio Code" alt="" />
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
-        {/* <img src={figma} title="Figma" alt="Figma" /> */}
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
       </section>
