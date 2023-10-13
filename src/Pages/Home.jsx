@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import Typed from "react-typed";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -88,6 +89,20 @@ function Home() {
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           {tagline}
+          <strong className="text-slider">
+                  <Typed
+                    strings={[
+                      "Front End Developer",
+                      "Back End Developer",
+                      "Software Engineer"
+                    ]}
+                    typeSpeed={80}
+                    backDelay={1100}
+                    backSpeed={30}
+                    loop
+                  />
+                </strong>
+               
         </h2>
 
         <a href='https://drive.google.com/file/d/1Du91dkFeFgSJKhHDosUIZxicT6TUV8-0/view?usp=drive_link' target='_blank' >
@@ -97,7 +112,7 @@ function Home() {
       </div>
       
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Satyajeet Behera" />
       </div>
       
     </main>
