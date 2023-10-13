@@ -92,8 +92,8 @@ function Home() {
           <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Front End Developer",
-                      "Back End Developer",
+                      "FrontEnd Developer",
+                      "BackEnd Developer",
                       "Software Engineer"
                     ]}
                     typeSpeed={80}
