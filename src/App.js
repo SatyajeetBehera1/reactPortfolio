@@ -7,6 +7,8 @@ import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 import particle_config from "./Components/particle-config";
+import React from "react";
+
 // import { useCallback } from "react";
 // function App() {
 //   return (
