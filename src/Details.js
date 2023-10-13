@@ -22,7 +22,6 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import nodejs from "./assets/techstack/nodejs.png";
 import express from "./assets/techstack/express.png";
 // import figma from "./assets/techstack/figma.png";
 // Porject Images
