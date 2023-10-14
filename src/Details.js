@@ -12,6 +12,7 @@ import css from "./assets/techstack/css.png";
 import js from "./assets/techstack/js.png";
 // import java from "./assets/techstack/java.png";
 import cplus from "./assets/techstack/c++.png";
+import nodejs from "./assets/techstack/nodejs.png";
 import java from "./assets/techstack/c++.png";
 import react from "./assets/techstack/react.png";
 // import redux from "./assets/techstack/redux.png";

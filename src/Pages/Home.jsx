@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
-import Typed from "react-typed";
+
+import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -89,19 +90,19 @@ function Home() {
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           {tagline}
-          <strong className="text-slider">
-                  <Typed
-                    strings={[
-                      "FrontEnd Developer",
-                      "BackEnd Developer",
-                      "Software Engineer"
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
-                  />
-                </strong>
+          <TypeAnimation
+            sequence={[
+              "Frontend Developer",
+              1000,
+              "Backend Developer",
+              1000,
+              "Software Developer",
+              1000,
+            ]}
+            speed={50}
+            repeat={Infinity}
+            style={{ fontSize: "1rm" }}
+          />
                
         </h2>
 
