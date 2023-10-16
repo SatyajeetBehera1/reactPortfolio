@@ -8,14 +8,13 @@ import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-// import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
-// import java from "./assets/techstack/java.png";
 import cplus from "./assets/techstack/c++.png";
 import nodejs from "./assets/techstack/nodejs.png";
-import java from "./assets/techstack/c++.png";
+import java from "./assets/techstack/java.png";
 import react from "./assets/techstack/react.png";
-// import redux from "./assets/techstack/redux.png";
+import mongodb from "./assets/techstack/mongodb.webp";
+import sql from "./assets/techstack/sql.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -24,7 +23,6 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import express from "./assets/techstack/express.png";
-// import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -130,6 +128,9 @@ export const techStackDetails = {
   github: github,
   nodejs: nodejs,
   express: express,
+  tailwind:tailwind,
+  mongodb:mongodb,
+  sql:sql,
 };
 
 // Enter your Project Details here
