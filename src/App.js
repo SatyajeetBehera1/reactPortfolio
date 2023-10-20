@@ -6,7 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 // import Technologies from "./Pages/tech";
-import Technologies from "./Pages/Technologiesech";
+import Technologies from "./Pages/Technologies";
 import particle_config from "./Components/particle-config";
 import React from "react";
 
