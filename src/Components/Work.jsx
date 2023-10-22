@@ -29,7 +29,7 @@ function Work({ position, company, location, type, duration }) {
               className="dark:fill-light-heading fill-dark-heading min-w-fit"
               width="16"
               height="12"
-              viewBox="0 0 16 12" 
+              viewBox="0 0 16 12"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
