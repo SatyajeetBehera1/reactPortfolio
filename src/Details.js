@@ -43,7 +43,8 @@ export const personalDetails = {
   tagline: "I am a passionate ",
   img: html,
   // img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a skilled web developer with over 1 years of experience in HTML, CSS, JavaScript, Python. I have knowledge of
+  popular frameworks such as React, Bootstrap, Express, Django,and Flask and experience with REST APIs`,
 };
 
 // Enter your Social Media URLs here
