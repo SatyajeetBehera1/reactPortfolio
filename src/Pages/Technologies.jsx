@@ -51,7 +51,7 @@ function Technologies() {
         <div className="flex items-center justify-center col-start-2 col-span-2">
           <img src={java} title="java" alt="java" />
         </div>
-      </section>
+      </section> 
       {/* <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold flex justify-center ">
           LIBRARIES & FRAMEWORKS
