@@ -42,8 +42,7 @@ function Header() {
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/about" onClick={toggleClass}>
-            <p className="hover:text-white">Home</p>
-              About
+            <p className="hover:text-white">About</p>
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
@@ -80,7 +79,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading hover:text-white"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -94,7 +93,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading hover:text-white"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -112,7 +111,7 @@ function Header() {
           <li>
             <a href={instagram} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading hover:text-white"
                 width="30"
                 height="30"
                 viewBox="0 0 16 16"
