@@ -7,7 +7,7 @@ function Technologies() {
     css,
     js,
     react,
-    bootstrap,
+    bootstrap, 
     vscode,
     git,
     github,
@@ -106,9 +106,9 @@ function Technologies() {
       <section
         className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 "
         style={{ display: "flex", justifyContent: "space-evenly" }}
-      >
+      > 
         <img src={vscode} title="Visual Studio Code" alt="" />
-        <img src={git} title="Git" alt="Git" />
+        <img src={git} title="Git" alt="Git" /> 
         <img src={github} title="Github" alt="Github" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
