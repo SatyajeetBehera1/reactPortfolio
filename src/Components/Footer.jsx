@@ -15,7 +15,8 @@ function Footer() {
         </a>{" "}
         with
         <span className="bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 text-transparent"> Love </span> &
-        <span className="bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 text-transparent"> Coffee </span>
+        <span className="bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 text-transparent"> Tea </span>
+        {/* <span className="bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600 text-transparent"> Coffee </span> */}
       </p>
     </footer>
   );
