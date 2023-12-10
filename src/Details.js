@@ -44,7 +44,7 @@ export const personalDetails = {
   img: html,
   // img: profile,
   about: `I am a skilled web developer with over 1 years of experience in HTML, CSS, JavaScript, Python. I have knowledge of
-  popular frameworks such as React, Bootstrap, Express, Django,and Flask and experience with REST APIs`,
+  popular frameworks such as React, Bootstrap, Express, Django, and Flask and experience with REST APIs.`,
 };
 
 // Enter your Social Media URLs here
