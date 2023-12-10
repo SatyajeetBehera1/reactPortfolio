@@ -10,23 +10,6 @@ import Technologies from "./Pages/Technologies";
 import particle_config from "./Components/particle-config";
 import React from "react";
 
-// import { useCallback } from "react";
-// function App() {
-//   return (
-//     <Router>
-//         <Header />
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/about" element={<About />} />
-//           <Route path="/contact" element={<Contact />} />
-//           <Route path="/projects" element={<Projects />} />
-//           <Route path="/technologies" element={<Technologies />} />
-//         </Routes>
-//         <Footer />
-//     </Router>
-//   );
-// }
-// export default App;
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
