@@ -1,5 +1,4 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from "react";
 import { contactDetails } from "../Details";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
@@ -8,23 +7,6 @@ import { GrInstagram } from "react-icons/gr";
 import "./contat_style.css"
 function Contact() {
   const { email, phone } = contactDetails;
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_38af1a7', 'template_173dbbe', form.current, 'a2oBRBnJJ-lXj7EFZ')
-    // emailjs.sendForm('service_jfzqazn', 'template_652pxkk', form.current, '645S-hfTXHFtx2LlU')
-      .then((result) => {
-          console.log(result.text);
-          alert("Email Send succesfull!")
-      }, (error) => {
-          console.log(error.text);
-          alert("Some Error occure")
-      });
-    document.getElementById("myForm").reset();
-  };
-
   return (
     <main className="antialiased">
       <div className="flex w-full min-h-[50%] justify-center item-center">
@@ -78,12 +60,11 @@ function Contact() {
                   </a>
                 </div>
               </div>
-            
+            {/* </div> */}
           </div>
           <div className="bg rounded-xl shadow-lg p-8">
             <form
-            ref={form} onSubmit={sendEmail}
-              id='myForm'
+              action=""
               flex-col
               className="flex flex-col space-y-4 md:w-80"
             >
@@ -92,7 +73,8 @@ function Contact() {
                   Your Name
                 </label>
                 <input
-                  type="text" name="user_name" 
+                  type="text"
+                  name=""
                   id=""
                   placeholder="Your Name"
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
@@ -104,7 +86,8 @@ function Contact() {
                 </label>
 
                 <input
-                  type="email" name="user_email"
+                  type="email"
+                  name=""
                   id=""
                   placeholder="Email Address"
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
@@ -117,13 +100,14 @@ function Contact() {
 
                 <textarea
                   rows={4}
-                  name="message"
+                  name=""
                   id=""
                   placeholder="Type your message here"
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
                 />
               </div>
-              <button type="submit" value="Send" className="inline-block self-end bg-black text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
+              {/* <div></div> */}
+              <button className="inline-block self-end bg-black text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
                 Send Message
               </button>
             </form>
