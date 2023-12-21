@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 import './chg.css'
 
@@ -9,6 +9,10 @@ function Header() {
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
+  let location = useLocation()
+  useEffect(()=>{
+    console.log(location.pathname)
+  }, [location])
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
@@ -38,27 +42,27 @@ function Header() {
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10 ">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
-              <p className="hover:text-white cursor-none">Home</p>
+            <p className={`hover:text-white cursor-none ${location.pathname==="/"? "text-white": ""}`}>Home</p>
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/about" onClick={toggleClass}>
-            <p className="hover:text-white cursor-none">About</p>
+            <p className={`hover:text-white cursor-none ${location.pathname==="/about"? "text-white": ""}`}>About</p>
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/technologies" onClick={toggleClass}>
-            <p className="hover:text-white cursor-none">Tech Stack</p>
+            <p className={`hover:text-white cursor-none ${location.pathname==="/technologies"? "text-white": ""}`}>Tech Stack</p>
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/projects" onClick={toggleClass}>
-            <p className="hover:text-white cursor-none">Projects</p>
+            <p className={`hover:text-white cursor-none ${location.pathname==="/projects"? "text-white": ""}`}>Projects</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/contact" onClick={toggleClass}>
-            <p className="hover:text-white cursor-none">Contact</p>
+            <p className={`hover:text-white cursor-none ${location.pathname==="/contact"? "text-white": ""}`}>Contact</p>
             </NavLink>
           </li>
         </ul>
