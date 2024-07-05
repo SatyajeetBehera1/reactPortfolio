@@ -4,6 +4,7 @@ const particles_config = {
     color: {
       value: "rgb(25, 25, 25)"
       // value: "#000"
+      // value: "#9c9c9c"
     },
     image: "",
     position: "",

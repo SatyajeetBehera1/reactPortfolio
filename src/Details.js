@@ -59,25 +59,25 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Novozen`,
+    Location: "Bhubaneswar",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "May 2024 - Present",
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  // {
+  //   Position: "Internship",
+  //   Company: `Company Name here`,
+  //   Location: "Bengaluru",
+  //   Type: "Internship",
+  //   Duration: "Sep 2021 - Dec 2021",
+  // },
+  // {
+  //   Position: "Internship",
+  //   Company: `Company Name here`,
+  //   Location: "Bengaluru",
+  //   Type: "Internship",
+  //   Duration: "Sep 2021 - Dec 2021",
+  // },
 ];
 
 // Enter your Education Details here
