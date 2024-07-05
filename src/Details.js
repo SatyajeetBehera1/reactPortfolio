@@ -28,8 +28,6 @@ import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -69,14 +67,14 @@ export const workDetails = [
   //   Company: `Company Name here`,
   //   Location: "Bengaluru",
   //   Type: "Internship",
-  //   Duration: "Sep 2021 - Dec 2021",
+  //   Duration: "Sep 2023 - Dec 2023",
   // },
   // {
   //   Position: "Internship",
   //   Company: `Company Name here`,
   //   Location: "Bengaluru",
   //   Type: "Internship",
-  //   Duration: "Sep 2021 - Dec 2021",
+  //   Duration: "Sep 2023 - Dec 2023",
   // },
 ];
 
@@ -186,7 +184,6 @@ export const projectDetails = [
   // },
 ];
 
-// Enter your Contact Details here
 export const contactDetails = {
   email: "jagajajpur3@gmail.com",
   phone: "+91 63728 89063",
