@@ -95,7 +95,7 @@ function Contact() {
                   type="text" name="user_name" 
                   id=""
                   placeholder="Your Name"
-                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
                 />
               </div>
               <div>
@@ -107,7 +107,7 @@ function Contact() {
                   type="email" name="user_email"
                   id=""
                   placeholder="Email Address"
-                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
                 />
               </div>
               <div>
@@ -120,7 +120,7 @@ function Contact() {
                   name="message"
                   id=""
                   placeholder="Type your message here"
-                  className="ring-1 ring-gray-300 w-full rounded-md px-4 px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
+                  className="ring-1 ring-gray-300 w-full rounded-md px-2 mt-2 outline-none focus:ring-2 focus:ring-green-400"
                 />
               </div>
               <button type="submit" value="Send" className="inline-block self-end bg-black text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
