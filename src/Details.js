@@ -4,7 +4,7 @@
 import logo from "./assets/logo2.svg";
 import logogradient from "./assets/Satya.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+// import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
