@@ -4,17 +4,18 @@
 import logo from "./assets/logo2.svg";
 import logogradient from "./assets/Satya.svg";
 // Profile Image
-// import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
+// import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
+// import java from "./assets/techstack/java.png";
 import cplus from "./assets/techstack/c++.png";
+import java from "./assets/techstack/c++.png";
 import nodejs from "./assets/techstack/nodejs.png";
-import java from "./assets/techstack/java.png";
 import react from "./assets/techstack/react.png";
-import mongodb from "./assets/techstack/mongodb.webp";
-import sql from "./assets/techstack/sql.png";
+// import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -23,11 +24,14 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import express from "./assets/techstack/express.png";
+// import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -38,11 +42,10 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Satyajeet Behera",
-  tagline: "I am a passionate ",
+  tagline: "I am a passionate Developer",
   img: html,
   // img: profile,
-  about: `I am a skilled web developer with over 1 years of experience in HTML, CSS, JavaScript, Python. I have knowledge of
-  popular frameworks such as React, Bootstrap, Express, Django, and Flask and experience with REST APIs.`,
+  about: `I am a skilled web developer with over 1 year of experience in HTML, CSS, JavaScript, and Python. I know of popular frameworks like React, Bootstrap, Express, Django, and Flask, and experience with REST APIs.`,
 };
 
 // Enter your Social Media URLs here
@@ -62,20 +65,6 @@ export const workDetails = [
     Type: "Internship",
     Duration: "May 2024 - Present",
   },
-  // {
-  //   Position: "Internship",
-  //   Company: `Company Name here`,
-  //   Location: "Bengaluru",
-  //   Type: "Internship",
-  //   Duration: "Sep 2023 - Dec 2023",
-  // },
-  // {
-  //   Position: "Internship",
-  //   Company: `Company Name here`,
-  //   Location: "Bengaluru",
-  //   Type: "Internship",
-  //   Duration: "Sep 2023 - Dec 2023",
-  // },
 ];
 
 // Enter your Education Details here
@@ -127,9 +116,6 @@ export const techStackDetails = {
   github: github,
   nodejs: nodejs,
   express: express,
-  tailwind:tailwind,
-  mongodb:mongodb,
-  sql:sql,
 };
 
 // Enter your Project Details here
@@ -159,31 +145,16 @@ export const projectDetails = [
     githubLink: "https://github.com/SatyajeetBehera1/reactPortfolio",
   },
   {
-    title: "Project title 4",
+    title: "Dance Academy",
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "HTML/CSS, JavaScript, Pug",
+    previewLink: "https://github.com/SatyajeetBehera1/Web-development/tree/main/Project2",
+    githubLink: "https://github.com/SatyajeetBehera1/Web-development/tree/main/Project2",
   },
-  // {
-  //   title: "Project title 5",
-  //   image: projectImage5,
-  //   description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
-  //   techstack: "HTML/CSS, JavaScript",
-  //   previewLink: "https://google.com",
-  //   githubLink: "https://github.com",
-  // },
-  // {
-  //   title: "Project title 6",
-  //   image: projectImage6,
-  //   description: `This is sample project description random things are here in description This is sample Fproject lorem ipsum generator for dummy content`,
-  //   techstack: "HTML/CSS, JavaScript",
-  //   previewLink: "https://google.com",
-  //   githubLink: "https://github.com",
-  // },
 ];
 
+// Enter your Contact Details here
 export const contactDetails = {
   email: "jagajajpur3@gmail.com",
   phone: "+91 63728 89063",
