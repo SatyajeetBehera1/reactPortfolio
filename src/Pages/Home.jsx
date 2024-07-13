@@ -93,11 +93,11 @@ function Home() {
           {tagline}
           <TypeAnimation
             sequence={[
-              "Frontend Developer",
+              "Frontend Developer.",
               1000,
-              "Backend Developer",
+              "Backend Developer.",
               1000,
-              "Software Developer",
+              "Software Developer.",
               1000,
             ]}
             speed={50}
