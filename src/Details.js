@@ -42,10 +42,10 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Satyajeet Behera",
-  tagline: "I am a passionate Developer",
+  tagline: "I am a passionate ",
   img: html,
   // img: profile,
-  about: `I am a skilled web developer with over 1 year of experience in HTML, CSS, JavaScript, and Python. I know of popular frameworks like React, Bootstrap, Express, Django, and Flask, and experience with REST APIs.`,
+  about: `I am a skilled web developer with over 1 year of experience in HTML, CSS, JavaScript, and Python. I know of popular frameworks like React.Js, Tailwind CSS, Next.Js, Express, Django, and Flask, and experience with REST APIs.`,
 };
 
 // Enter your Social Media URLs here
