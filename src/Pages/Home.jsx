@@ -89,8 +89,8 @@ function Home() {
           ref={h13}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          <br></br>
           {tagline}
+          <br></br>
           <TypeAnimation
             sequence={[
               "Frontend Developer.",
